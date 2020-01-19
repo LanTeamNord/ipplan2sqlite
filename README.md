@@ -60,3 +60,6 @@ All RFC1918 networks that are free for use shall be commented with: "#-FREE-RFC1
 Example:
 
     #-FREE-RFC1918                                  10.32.8.0/24
+
+## Generate/modify ipplan.db file
+python generate.py --database /etc/ipplan.db --manifest tests/data/manifest.yml ipplan.txt

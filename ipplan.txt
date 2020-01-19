@@ -1,0 +1,10 @@
+A01                                                     10.11.2.0/24    DIST11  1102    dhcp;resv=10;sw=ab
+A01mgmt                                         10.1.11.0/24    DIST11  111     resv=10;sw=ab
+#$  a01-a.access.ggw 10.1.11.2 ipv4f;ipv4r;layer=access
+#$  a01-b.access.ggw 10.1.11.3 ipv4f;ipv4r;layer=access
+
+A02                                                     10.11.4.0/24    DIST11  1104    dhcp;resv=10;sw=ab
+A02mgmt                                         10.1.11.0/24    DIST11  111     resv=10;sw=ab
+#$  a02-a.access.ggw 10.1.11.4 ipv4f;ipv4r;layer=access
+#$  a02-b.access.ggw 10.1.11.5 ipv4f;ipv4r;layer=access
+

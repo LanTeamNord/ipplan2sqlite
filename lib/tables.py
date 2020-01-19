@@ -119,7 +119,7 @@ def create(conn):
             sw, LOWER(n.short_name) ||
             '-' ||
             substr(o.value, 1, 1) ||
-            '.event.dreamhack.local'
+            '.access.ggw'
             AS switch_name
     FROM
         option o,
@@ -141,7 +141,7 @@ def create(conn):
             sw, LOWER(n.short_name) ||
             '-' ||
             substr(o.value, 2, 1) ||
-            '.event.dreamhack.local'
+            '.access.ggw'
             AS switch_name
     FROM
         option o,
@@ -162,7 +162,7 @@ def create(conn):
             sw, LOWER(n.short_name) ||
             '-' ||
             substr(o.value, 3, 1) ||
-            '.event.dreamhack.local'
+            '.access.ggw'
             AS switch_name
     FROM
         option o,
